@@ -1,0 +1,108 @@
+.clearfix {
+  overflow: auto;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 50px;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+}
+
+.navitems {
+  float: right;
+}
+
+.navitems li {
+  display: inline-block;
+  float: left;
+  margin: 5px 15px;
+  list-style: none;
+}
+
+.navitems img {
+  height: 20px;
+  width: 20px;
+}
+
+.navbutton {
+  display: inline-block;
+  height: 30px;
+  width: 90px;
+  background-color: steelblue;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.navbutton li {
+  color: white;
+  margin: 5px 20px;
+}
+
+.searchpage {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.searchpage img {
+  height: 150px;
+  width: 272px;
+  display: block;
+  margin: 0px auto;
+}
+
+#googlesearch {
+  border: 1px solid black;
+  height: 40px;
+  width: 543px;
+  margin-bottom: 10px;
+}
+
+.buttonblock {
+  width: 543px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.buttons {
+  height: 35px;
+  width: 125px;
+  padding-top: 10px;
+  display: inline-block;
+  background: lightgrey;
+  border-radius: 5%;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background: lightgrey;
+}
+
+.footeritems1 {
+  float: left;
+}
+
+.footeritems2 {
+  float: right;
+}
+
+.footeritems1 li,
+.footeritems2 li {
+  float: left;
+  display: inline-block;
+  margin: 2px 15px;
+}
